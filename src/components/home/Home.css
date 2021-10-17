@@ -1,0 +1,51 @@
+body {
+  background-image:url('../../walpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+} 
+.search-bar { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  transform: translate(-50%, -50%);
+  background: #4CAF50;
+  width: 386px; 
+  height: 40px;  
+  padding: 0.2rem 0.6rem 0.2rem 0.2rem;
+  box-sizing: border-box;
+}
+
+.search-bar input {
+  border: 0;
+  outline: none;
+  height: 100%;
+  width: 93%;
+  padding: 0 1rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.search-bar button {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+}
+.addUsers{
+    margin-top: 13.7%;
+    margin-left: 61%;
+    padding: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0; 
+    background-color:#4CAF50;
+    color: #fff;
+}
